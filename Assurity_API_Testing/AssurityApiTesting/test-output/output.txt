@@ -1,0 +1,170 @@
+=========================================================================================
+                                 RESPONSE BODY                                           
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1398
+Content-Type: application/json
+ETag: "XrQ7a3WGz9ANtbrp0tIirJIhAM8="
+X-Correlation-ID: 088f7aae-ac5a-4afa-afc2-9182de1d6411
+X-Request-ID: 50790969-f344-42bb-bc10-eea66b1f6d95
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: ETag
+X-POWERED-BY: 
+X-ASPNET-VERSION: 
+Accept-Ranges: bytes
+Date: Wed, 13 Jul 2022 09:26:08 GMT
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+
+{
+    "CategoryId": 6327,
+    "Name": "Carbon credits",
+    "Path": "/Business-farming-industry/Carbon-credits",
+    "CanListAuctions": true,
+    "CanListClassifieds": true,
+    "CanRelist": true,
+    "LegalNotice": "Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. ",
+    "DefaultDuration": 14,
+    "AllowedDurations": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        14
+    ],
+    "Fees": {
+        "Bundle": 15.0000,
+        "EndDate": 0.2500,
+        "Feature": 10.0000,
+        "Gallery": 2.0000,
+        "Listing": 29.0000,
+        "Reserve": 0.2500,
+        "Subtitle": 0.5500,
+        "TenDays": 0.2500,
+        "ListingFeeTiers": [
+            {
+                "MinimumTierPrice": 0,
+                "FixedFee": 29.00
+            }
+        ],
+        "SecondCategory": 0.9900
+    },
+    "FreePhotoCount": 20,
+    "MaximumPhotoCount": 20,
+    "IsFreeToRelist": true,
+    "Promotions": [
+        {
+            "Id": 1,
+            "Name": "Basic",
+            "Description": "Lowest position in category",
+            "Price": 0.0000,
+            "MinimumPhotoCount": 0
+        },
+        {
+            "Id": 2,
+            "Name": "Gallery",
+            "Description": "Good position in category",
+            "Price": 2.0000,
+            "OriginalPrice": 2.0000,
+            "MinimumPhotoCount": 0
+        },
+        {
+            "Id": 3,
+            "Name": "Feature",
+            "Description": "Better position in category",
+            "Price": 10.0000,
+            "OriginalPrice": 10.0000,
+            "Recommended": true,
+            "MinimumPhotoCount": 0
+        },
+        {
+            "Id": 4,
+            "Name": "Feature Combo",
+            "Description": "Best position in category \nIncludes benefits of Feature \nHighlights listing in search results",
+            "Price": 15.0000,
+            "OriginalPrice": 15.0000,
+            "MinimumPhotoCount": 0
+        }
+    ],
+    "EmbeddedContentOptions": [
+        
+    ],
+    "MaximumTitleLength": 80,
+    "AreaOfBusiness": 1,
+    "DefaultRelistDuration": 7,
+    "CanUseCounterOffers": true
+}
+=========================================================================================
+=========================================================================================
+                                 STATUS CODE                                             
+The response status is 200
+=========================================================================================
+=========================================================================================
+                                 STATUS LINE                                             
+The response status is HTTP/1.1 200 OK
+=========================================================================================
+=========================================================================================
+                                 RESPONSE HEADER                                         
+The headers in the response Connection=keep-alive
+Content-Length=1398
+Content-Type=application/json
+ETag="XrQ7a3WGz9ANtbrp0tIirJIhAM8="
+X-Correlation-ID=c57f498e-5e1c-42b9-b6f1-9200edde696a
+X-Request-ID=3f089c34-5974-4231-9901-27156652553e
+Access-Control-Allow-Origin=*
+Access-Control-Expose-Headers=ETag
+X-POWERED-BY=
+X-ASPNET-VERSION=
+Accept-Ranges=bytes
+Date=Wed, 13 Jul 2022 09:26:11 GMT
+Strict-Transport-Security=max-age=31536000
+X-Frame-Options=SAMEORIGIN
+X-Content-Type-Options=nosniff
+Referrer-Policy=no-referrer
+=========================================================================================
+=========================================================================================
+                                 CONTENT TYPE                                            
+The content type of response application/json
+=========================================================================================
+=========================================================================================
+                            ACCEPTANCE CRITERIA (1) NAME                                 
+Name received from Response Carbon credits
+=========================================================================================
+=========================================================================================
+                            ACCEPTANCE CRITERIA (2) CANRELIST                            
+CanRelist received from Response true
+=========================================================================================
+=========================================================================================
+                  ACCEPTANCE CRITERIA (3) NAME & DESCRIPTION                             
+Gallery found at index:1
+Name received from Response Gallery
+Description received from Response Good position in category
+=========================================================================================
+=========================================================================================
+                               END OF API TESTING                                        
+=========================================================================================
+PASSED: getResponseBody
+PASSED: getResponseStatus
+PASSED: whenLogResponseIfErrorOccurred_thenSuccess
+PASSED: getResponseHeaders
+PASSED: getResponseContentType
+PASSED: verifyName
+PASSED: verifyCanRelist
+PASSED: verifyPromotionsDescriptions
+
+===============================================
+    Default test
+    Tests run: 8, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 8, Failures: 0, Skips: 0
+===============================================
+

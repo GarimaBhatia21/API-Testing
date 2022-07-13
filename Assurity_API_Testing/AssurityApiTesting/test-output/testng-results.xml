@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12130" started-at="2022-07-13T09:26:01Z" finished-at="2022-07-13T09:26:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12130" started-at="2022-07-13T09:26:01Z" finished-at="2022-07-13T09:26:14Z">
+      <class name="com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="setUp" is-config="true" duration-ms="1889" started-at="2022-07-13T21:26:01Z" finished-at="2022-07-13T21:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getResponseBody()[pri:0, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="getResponseBody" duration-ms="4756" started-at="2022-07-13T21:26:03Z" finished-at="2022-07-13T21:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseBody -->
+        <test-method status="PASS" signature="getResponseStatus()[pri:1, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="getResponseStatus" duration-ms="1504" started-at="2022-07-13T21:26:08Z" finished-at="2022-07-13T21:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseStatus -->
+        <test-method status="PASS" signature="whenLogResponseIfErrorOccurred_thenSuccess()[pri:2, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="whenLogResponseIfErrorOccurred_thenSuccess" duration-ms="463" started-at="2022-07-13T21:26:10Z" finished-at="2022-07-13T21:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- whenLogResponseIfErrorOccurred_thenSuccess -->
+        <test-method status="PASS" signature="getResponseHeaders()[pri:3, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="getResponseHeaders" duration-ms="208" started-at="2022-07-13T21:26:10Z" finished-at="2022-07-13T21:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseHeaders -->
+        <test-method status="PASS" signature="getResponseContentType()[pri:4, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="getResponseContentType" duration-ms="227" started-at="2022-07-13T21:26:10Z" finished-at="2022-07-13T21:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseContentType -->
+        <test-method status="PASS" signature="verifyName()[pri:5, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="verifyName" duration-ms="1945" started-at="2022-07-13T21:26:11Z" finished-at="2022-07-13T21:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyName -->
+        <test-method status="PASS" signature="verifyCanRelist()[pri:6, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="verifyCanRelist" duration-ms="260" started-at="2022-07-13T21:26:13Z" finished-at="2022-07-13T21:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCanRelist -->
+        <test-method status="PASS" signature="verifyPromotionsDescriptions()[pri:7, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="verifyPromotionsDescriptions" duration-ms="727" started-at="2022-07-13T21:26:13Z" finished-at="2022-07-13T21:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPromotionsDescriptions -->
+        <test-method status="PASS" signature="terminateTesting()[pri:0, instance:com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass@4501b7af]" name="terminateTesting" is-config="true" duration-ms="1" started-at="2022-07-13T21:26:14Z" finished-at="2022-07-13T21:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateTesting -->
+      </class> <!-- com.assurityapi.AssurityApiTesting.myAssurityApiTestingClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
